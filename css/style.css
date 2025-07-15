@@ -181,6 +181,94 @@ body {
     padding: 1.4rem 5%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* fitur */
+features {
+    text-align: center;
+}
+
+features h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--primary);
+}
+
+.fitur {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.fitur-kartu {
+    background-color: var(--primary);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 300px;
+    flex: 1;
+    transition: transform 0.3s;
+    font-size: 1.2rem;
+}
+
+.fitur-kartu:hover {
+    transform: translateY(-5px);
+}
+
+.fitur-logo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.mainDiv {
+    padding: 1.4rem 5%;
+}
+
+.mainDiv > p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media queries */
 
 /* laptop */
@@ -226,11 +314,4 @@ body {
     }
 
     
-}
-
-/* mobile phone */
-@media (max-width: 450px){
-    html {
-        font-size: 55%;
-    }
 }
