@@ -176,6 +176,11 @@ body {
     background-color: #c58f29;
 }
 
+/* about section */
+.about {
+    padding: 1.4rem 5%;
+}
+
 /* media queries */
 
 /* laptop */
