@@ -23,7 +23,7 @@ body {
     margin: auto;
 }
 
-.ukuran>h1 {
+.ukuran > h1 {
     font-style: italic;
 }
 
@@ -235,14 +235,15 @@ features h2 {
     margin-bottom: 1rem;
 }
 
-.mainDiv {
-    padding: 1.4rem 5%;
-}
-
 .mainDiv > p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
+
+
+
+
+
 
 
 
