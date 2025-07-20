@@ -380,7 +380,23 @@ footer {
     }
 
     .footer-content {
-        gap: 0;
+        gap: 0.5rem;
+    }
+
+    .footer-section h4 {
+        margin: 0;
+    }
+
+    .footer-section {
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .footer-section p {
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .footer-section ul {
+        margin: 0.5rem 0 0.5rem;
     }
 
 }
