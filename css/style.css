@@ -14,7 +14,6 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 2000px;
 }
 
 .ukuran {
@@ -242,9 +241,13 @@ features h2 {
 
 /* Video */
 
-.ukuran video {
-    max-width: 70%;
-    border-radius: 20px;
+.meDiv video {
+    max-width: 50%;
+}
+
+.meDiv {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* footer */
