@@ -244,7 +244,10 @@ features h2 {
     font-size: 1.5rem;
 }
 
-
+.ukuran video {
+    max-width: 70%;
+    border-radius: 20px;
+}
 
 
 
