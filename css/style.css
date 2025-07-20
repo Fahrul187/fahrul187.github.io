@@ -240,23 +240,67 @@ features h2 {
     font-size: 1.5rem;
 }
 
+/* Video */
+
 .ukuran video {
     max-width: 70%;
     border-radius: 20px;
 }
 
+/* footer */
 
+footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 1rem 0 1rem;
+}
 
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
 
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
 
+.footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #949494;
+}
 
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
 
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
 
+.footer-section ul li a {
+    color: #706f6f;
+    transition: color 0.3s ease;
+}
 
+.footer-section ul li a:hover {
+    color: red;
+}
 
+.footer-section p {
+    color: #706f6f;
+}
 
-
-
+.ukuran .copyright {
+    text-align: center;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
+    color: #999;
+}
 
 
 
